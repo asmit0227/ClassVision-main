@@ -4,11 +4,11 @@ def style_base_background():
   st.markdown("""
     <style>
        .stApp{
-        background : #5865f2  !important;
+        background : #8DA1FF  !important;
             }
 
         .stApp div[data-testid="stColumn"]{
-            background-color : #E0E3FF !important;
+            background-color : #C7D5F0 !important;
             padding : 2.5rem !important;
             border-radius : 5rem !important;
         }    
@@ -32,6 +32,8 @@ def style_base_all():
 def style_base_layout():
   st.markdown("""
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Outfit:wght@100..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Outfit:wght@100..900&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Montserrat:ital@0;1&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
         /* hide top bar of streamlit */
@@ -44,16 +46,20 @@ def style_base_layout():
             }
           
           h1{
-             font-family : "Climate Crisis" , sans-serif !important;
-             font-size : 3.5rem !important;
-             line-height : 2.2rem important;
+             font-family : "Alfa Slab One" , sans-serif !important;
+             font-size : 4.5rem !important;
+             line-height : 2.4rem important;
              margin-bottom : 0rem !important
              } 
           h2{
-                font-family : "Climate Crisis" , sans-serif !important;
-                font-size : 2rem !important;
+                font-family : "Black Ops One" , sans-serif !important;
+                font-size : 2.5rem !important;
                 line-height : 0.8 !important;
-                margin-bottom : 0rem !important
+                margin-bottom : 0rem !important;
+                display: flex !important;
+                justify-content: center !important; /* Left-Right se center karega */
+                align-items: center !important;     /* Top-Bottom se center karega */
+}
                  } 
           h3,h4,p{
              font-family : "Outfit" , sans-serif !important
@@ -91,3 +97,6 @@ def style_base_layout():
        """,
 
        unsafe_allow_html=True)  
+
+  
+    
