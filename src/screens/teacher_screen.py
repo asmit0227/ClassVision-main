@@ -203,7 +203,7 @@ def Manage_Subjects_tab():
          ("🕰️","Classes",current_subject['total_classes']),
              ]  
     def share_btn():
-        if st.button(f"Share Code: {current_subject['subject_name']}", key=f"share_{current_subject['subject_code']}", icon=":material/share:"):
+        if st.button(f"Share Code: {current_subject['subject_name']}", key=f"share_{current_subject['subject_code']}", icon=":material/share:",width="stretch"):
              share_subject_dialog(current_subject['subject_name'], current_subject['subject_code'])
              st.space()
 
