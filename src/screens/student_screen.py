@@ -91,6 +91,15 @@ def student_dashboard():
 def student_screen():
      style_base_all()
      style_base_layout()
+     st.markdown("""
+    <style>
+    div[data-testid="stCameraInput"] label p {
+        font-weight: 700 !important;
+        font-size: 18px !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 
 
      if "student_data" in st.session_state:
@@ -115,7 +124,7 @@ def student_screen():
 
 
 
-     photo_source = st.camera_input("position your face in the camera")
+     photo_source = st.camera_input("Position Your Face In The Camera")
      if photo_source:
        img = np.array(Image.open(photo_source))
        with st.spinner("AI is scanning ...."):
