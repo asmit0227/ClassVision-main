@@ -1,8 +1,8 @@
 import streamlit as st
 from src.screens.home_screen import home_screen
 from src.screens.student_screen import student_screen
-from src.screens.teacher_screen import teacher_register_screen,teacher_screen
-from src.componenets.header_home import header_home 
+from src.screens.teacher_screen import teacher_screen
+
 from src.componenets.dialog_auto_enroll import auto_enroll_dialog
 st.markdown(
     """

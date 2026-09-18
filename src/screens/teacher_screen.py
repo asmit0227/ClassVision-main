@@ -215,7 +215,7 @@ def Manage_Subjects_tab():
              stats=stats,
              footer_callback=share_btn
          )
-    c1= st.columns(4)[0]    
+    c1= st.columns(1)[0]    
     with c1:
         if st.button("!Delete",width="stretch",type="tertiary"):
             delete_subject(current_subject['subject_code'])       
