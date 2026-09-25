@@ -25,4 +25,11 @@ ClassVision combines Artificial Intelligence, Computer Vision, and modern web te
 The goal of ClassVision is to reduce the time teachers spend taking attendance while providing a simple, scalable, and AI-driven attendance management 
 system for educational institutions.
 
-ClassVision - AI That Recognize Your Class
+## License
+
+Copyright © 2026 Asmit. All Rights Reserved.
+
+This project is publicly available for viewing and portfolio evaluation only. Copying, modifying, redistributing, publishing, or using this project's source code without prior permission is prohibited.
+
+See the `LICENSE` file for details.
+
