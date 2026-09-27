@@ -19,7 +19,9 @@ ClassVision combines Artificial Intelligence, Computer Vision, and modern web te
  ☁️ Cloud Database – Uses Supabase for storing users, subjects, enrollments, and attendance data. 
 
  📸 Project Screenshots
-<p align="center"> <img src="src/assets/student_login2.png" width="850">Automatically identify students using facial features. </p>
+<p align="center">
+<img src="src/assets/student_login2.png" width="850">
+Automatically identify students using facial features. </p>
 <p align="center"> <img src="src/assets/teacher_dashboard.png" width="850">Mark attendance from classroom images instead of manual roll calls.  </p>
 <p align="center"> <img src="src/assets/attendance_tab.png" width="850"> Create subjects, manage classes, and track attendance. . </p>
 <p align="center"> <img src="src/assets/student_dashboard.png" width="850">Join classes and monitor attendance records. </p>
