@@ -19,7 +19,7 @@ ClassVision combines Artificial Intelligence, Computer Vision, and modern web te
  ☁️ Cloud Database – Uses Supabase for storing users, subjects, enrollments, and attendance data. 
 
  📸 Project Screenshots
-<p align="center">
+<p>
 <img src="src/assets/student_login2.png" width="850">
 Automatically identify students using facial features. </p>
 <p align="center"> <img src="src/assets/teacher_dashboard.png" width="850">Mark attendance from classroom images instead of manual roll calls.  </p>
@@ -132,22 +132,7 @@ Connecting frontend applications with backend AI services
 
 Flask helps separate AI processing logic from the user interface and makes the system easier to scale and integrate.
 
-🧩 Technology Architecture
-                ClassVision
-                     │
-          ┌──────────┴──────────┐
-          │                     │
-      Streamlit              Flask API
-    User Interface          Backend Services
-          │                     │
-          ├─────────────┬───────┤
-          │             │       │
-    Face Recognition   Voice    Supabase
-          │          Recognition   │
-          │             │          │
-         dlib        Librosa       Cloud
-                       │          Database
-                  Resemblyzer
+
 🔄 Technology Flow
 Streamlit provides the user interface for Teachers and Students.
 Supabase stores users, subjects, enrollment data, and attendance records.
