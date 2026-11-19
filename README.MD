@@ -218,6 +218,8 @@ All components work together to create a secure and intelligent attendance manag
 
 The goal of ClassVision is to reduce the time teachers spend taking attendance while providing a simple, scalable, and AI-driven attendance management system for educational institutions.
 
+Take Demo - https://cv-landing-page-sigma.vercel.app/
+
 ### License
 Copyright © 2026 Asmit. All Rights Reserved.
 
