@@ -75,6 +75,30 @@ ClassVision addresses these challenges by:
 - Login, registration, forms, dashboards, image upload, and attendance views.
 - Session state manages navigation and login state.
 
+## Project Structure
+
+The repository is organized around the Streamlit entry point and application modules under `src`.
+
+```text
+ClassVision-main/
+├── .devcontainer/
+├── src/
+│   ├── Database/
+│   │   ├── config.py
+│   │   └── db.py
+│   ├── screens/
+│   │   ├── home_screen.py
+│   │   ├── student_screen.py
+│   │   └── teacher_screen.py
+│   ├── componenets/
+│   │   └── dialog_auto_enroll.py
+│   ├── ...                    # Recognition, attendance, UI modules
+├── app.py                    # Streamlit entry point
+├── requirements.txt
+├── README.MD
+└── LICENSE
+```
+
 
 
 
